@@ -22,6 +22,11 @@ Finally, please deploy the change into the production.
     $ git add .ebextensions/1-td-agent-install.config
     $ git commit -a -m 'custom extensions to install td-agent'
     $ git aws.push
+    
+### How it Works
+
+- `0-td-agent-gen-config.config`: This script puts the config file under `/etc/td-agent/td-agent.conf`
+- `1-td-agent-install.config`: This script installs the td-agent package via yum, and launch the daemon
 
 # References
 
