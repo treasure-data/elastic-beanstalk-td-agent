@@ -1,5 +1,5 @@
-td-agent on Amazon Elatic Beanstalk
-===================================
+td-agent on AWS Elatic Beanstalk
+================================
 
 This is an example application template of installing td-agent on AWS Elastic Beanstalk (see .rbextentions directory)
 
