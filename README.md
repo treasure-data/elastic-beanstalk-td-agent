@@ -18,10 +18,11 @@ Please modify your configuration if you want.
     
 Finally, please deploy the change into the production.
 
+    $ eb init
     $ git add .ebextensions/0-td-agent-gen-config.config
     $ git add .ebextensions/1-td-agent-install.config
     $ git commit -a -m 'custom extensions to install td-agent'
-    $ git aws.push
+    $ eb create
     
 ### How it Works
 
