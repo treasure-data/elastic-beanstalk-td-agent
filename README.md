@@ -1,7 +1,7 @@
 td-agent on AWS Elastic Beanstalk
 =================================
 
-This is an example application template of installing td-agent on AWS Elastic Beanstalk (see .rbextentions directory)
+This is an example application template of installing td-agent on AWS Elastic Beanstalk (see .ebextentions directory)
 
 ### Install td-agent on your Beanstalk container
 
